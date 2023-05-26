@@ -1,3 +1,14 @@
-
 import numpy as np
 import pandas as pd
+
+
+ibov = pd.read_csv('Evolucao_Diaria.csv')
+ibov
+
+
+vou usar esse link para baixar o banco de dados
+https://www.b3.com.br/en_us/market-data-and-indices/indices/broad-indices/indice-ibovespa-ibovespa-historic-statistics.htm
+
+
+podemos usar esse kaggle como exemplo
+https://www.kaggle.com/code/lusfernandotorres/bovespa-ibovespa-portfolio-in-june-2022
