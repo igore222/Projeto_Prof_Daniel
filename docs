@@ -1,12 +1,10 @@
-import numpy as np
-import pandas as pd
 
 
-ibov = pd.read_csv('Evolucao_Diaria.csv')
-ibov
+vamos usar esse link para baixar o banco de dados:
+https://br.investing.com/indices/bovespa-historical-data (prazo 01/01/2013 a 01/05/2023)
 
 
-vou usar esse link para baixar o banco de dados
+esse foi a ideia inicial, que não vamos utilizar mais.
 https://www.b3.com.br/en_us/market-data-and-indices/indices/broad-indices/indice-ibovespa-ibovespa-historic-statistics.htm
 
 
