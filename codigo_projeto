@@ -1,1 +1,13 @@
+# INSTALAMOS O PYMONGO PARA CONSEGUIR ACESSO AO SGBD
+pip install pymongo
 
+#IMPORTAMOS AS BIBLIOTECAS NECESSÁRIAS PARA O NOSSO PROJETO
+import pandas as pd
+import pymongo
+
+#AQUI ESTAMOS NOS CONCETANDO AO BANCO DE DADOS
+client = pymongo.MongoClient('mongodb://localhost:27017')
+db = client['Proj_daniel']
+collection = db['dados_ibov']
+
+# EM BREVE DAREMOS ANDAMENTO NO PROJETO
